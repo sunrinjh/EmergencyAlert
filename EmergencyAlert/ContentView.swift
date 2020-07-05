@@ -21,7 +21,7 @@ struct ContentView: View {
     var body: some View {
         Form{
             Section{
-                TextField("제목", text: $title)
+                TextField("공공 안전 경보", text: $title)
                 
             }
             Section{
