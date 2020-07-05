@@ -22,7 +22,7 @@ struct ContentView: View {
         Form{
             Section{
                 TextField("제목", text: $title)
-            
+                
             }
             Section{
                 TextField("내용", text: $sentence)
